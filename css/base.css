@@ -1,0 +1,30 @@
+.menu-global{
+    width: 100%;
+    background: #eeee;
+    align-content: right;
+    position: absolute;
+}
+.botao-menu{
+    float: right;
+    padding: 15px;
+    /* height: 100%; */
+    display: inline-block;
+    text-decoration: none;
+    background: #eeee;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration-color: black;
+        
+}
+.botao-menu:hover{
+    background: #fff;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+.link-nav{
+    text-decoration: none;
+    color: black;
+    text-decoration-color: black;
+}
