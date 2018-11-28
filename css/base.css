@@ -36,8 +36,8 @@
 .thumb-livro{
     display: block;
     float: left;
-    width: 128px;
-    height: 189px;
+    width: 15rem;
+    height: 19.8205rem;
     background-color: #eee;
 }
 @keyframes botao-menu{
