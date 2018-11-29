@@ -39,12 +39,16 @@
 
 .thumb-livro {
     display: flex;
-    flex: 12.5%;
+    /* flex: 12.5%;
     width: 12.5vw;
     height: 16.53375vw;
+    max-width: calc(100%/8); */
+        flex: 33.333%;
+        width: 33.333vw;
+        height: 44.0882vw;
+        max-width: calc(100%/3);
     min-width: 64px;
     min-height: 95.5px;
-    max-width: calc(100%/8);
     float: left;
     background-color: #eee;
     /* -32,27513227513228% a menos da altura */
@@ -87,7 +91,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     .thumb-livro {
         flex: 16.6666%;
         width: 16.666vw;
@@ -141,4 +145,4 @@
         font-size: 4vw;
         padding: 1.5vw;
     }
-}
+} */
