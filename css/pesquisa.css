@@ -42,7 +42,7 @@
     width: 0px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 480px){
 .pesquisa-li{
     position: relative;
     float: left;
