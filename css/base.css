@@ -129,7 +129,7 @@
     }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 719px) {
     .thumb-livro {
         flex: 33.333%;
         width: 33.333vw;
