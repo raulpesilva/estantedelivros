@@ -3,26 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Estante de livros</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/base.css">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/pesquisa.css">
 </head>
 
 <body>
-    <nav class="menu-global">
-        <ul class="menu-nav">
-            <li class="botao-menu"><a class="link-nav" href="index.html">Home</a></li>
-            <li class="botao-menu"><a class="link-nav" href="#">Estante</a></li>
-            <li class="botao-menu"><a class="link-nav" href="#">Minha lista</a></li>
-            <li class="botao-menu"><a class="link-nav" href="pesquisa.html">Pesquisar</a></li>
-        </ul>
-    </nav>
+    <header>
+        <div class="container">
+            <!-- <div class="logo-menu"><i class="fas fa-quran"></i>Estante</div> -->
+            <nav class="menu-global">
+                <ul class="menu-nav">
+                    <li class="botao-menu"><a class="link-nav" href="index.html">Home</a></li>
+                    <li class="botao-menu"><a class="link-nav" href="#">Estante</a></li>
+                    <li class="botao-menu"><a class="link-nav" href="#">Minha lista</a></li>
+                                <li class="pesquisa-li">
+                                    <div class="box-pesquisa">
+                                        <input type="text" class="texto-pesquisa" placeholder="Digite o nome do livro">
+                                        <a href="pesquisa.html" class="pesquisa-bnt">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            <!-- </div>                   <li class="botao-menu"><a class="link-nav" href="pesquisa.html">Pesquisar</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
     <!-- adicionar action pra pesquisa -->
-    <div class="pesquisar-livro">
-        <input type="text" class="inputLivro">
-        <label class="botao-pesquisa"><a href="#" class="link-pesquisa">pesquisar</a></label>
-    </div>
+    <!-- <div class="box-pesquisa">
+        <input type="text" class="texto-pesquisa" placeholder="Digite o nome do livro">
+        <a href="#" class="pesquisa-bnt">
+            <i class="fas fa-search"></i>
+        </a>
+    </div> -->
     <div class="vitrine">
         <ul class="tumbnail" id="thumb">
             <!-- <li class="thumb-livro"> <img src="http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"

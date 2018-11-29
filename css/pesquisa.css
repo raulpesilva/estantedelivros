@@ -1,0 +1,63 @@
+.pesquisa-li{
+    display: inline-block;
+    margin-left: 2vw;
+    
+
+}
+
+.box-pesquisa{
+    /* position: block; */
+    display: flex;
+    background: #2c2c2c;
+    border-radius: 14px;
+    padding: 10px;
+    
+}
+.box-pesquisa:hover > .texto-pesquisa{
+    position: relative;
+    width: 280px;
+    padding: 0 6px;
+}
+.pesquisa-bnt{
+    color: white;
+    float: right;
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: #2c2c2c;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.texto-pesquisa{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    transition: 0.4s;
+    line-height: 14px;
+    width: 0px;
+}
+
+@media (max-width: 900px){
+.pesquisa-li{
+    position: relative;
+    float: left;
+    padding: 1px;
+    width: 100%;
+    /* justify-content: end; */
+
+}
+.texto-pesquisa{
+    width: 100%;
+}
+
+.box-pesquisa:hover > .texto-pesquisa{
+    position: relative;
+    width: 100%;
+    /* padding: 0 6px; */
+}
+}
