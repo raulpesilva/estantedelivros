@@ -15,7 +15,7 @@
 }
 .box-pesquisa:hover > .texto-pesquisa{
     position: relative;
-    width: 280px;
+    width: 180px;
     padding: 0 6px;
 }
 .pesquisa-bnt{
@@ -42,7 +42,7 @@
     width: 0px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 600px){
 .pesquisa-li{
     position: relative;
     float: left;
