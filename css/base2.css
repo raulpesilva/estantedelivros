@@ -24,15 +24,17 @@ header::after{
     /* margin-left: 50%; */
     /* transform: translate(-50%,0); */
     /* padding: 10px; */
-    /* width: fit-content; */
+    width: fit-content;
     /* list-style: none; */
     margin-left: calc(50% - 96px);
+    margin-left: calc(50% - 190px);
     /* justify-items: center; */
     /* align-items: center; */
 }
 .botao-menu{
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-left: 50px;
     display: inline-block;
     position: relative;
     /* align-items: center; */
