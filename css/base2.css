@@ -73,12 +73,12 @@ header::after{
     background: #2c2c2c;
     border-radius: 14px;
     padding: 10px;
-    width: 95%;
+    width: 94%;
     
 }
 .box-pesquisa:hover > .texto-pesquisa{
     position: relative;
-    width: 94%;
+    width: 93%;
     padding: 0 2px;
 }
 .pesquisa-bnt{
@@ -103,5 +103,5 @@ header::after{
     font-size: 14px;
     transition: 0.4s;
     line-height: 14px;
-    width: 95%;
+    width: 93%;
 }
