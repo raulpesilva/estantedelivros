@@ -1,9 +1,6 @@
 .pesquisa-li{
     display: inline-block;
-    position: relative;
     margin-left: 2vw;
-    padding: 1px;
-    width: 100%;
     
 
 }
@@ -19,7 +16,7 @@
 .box-pesquisa:hover > .texto-pesquisa{
     position: relative;
     width: 180px;
-    /* padding: 0 6px; */
+    padding: 0 6px;
 }
 .pesquisa-bnt{
     color: white;
@@ -31,7 +28,6 @@
     display: block;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
 }
 .texto-pesquisa{
     border: none;
@@ -40,10 +36,10 @@
     float: left;
     padding: 0;
     color: white;
-    font-size: 30px;
+    font-size: 14px;
     transition: 0.4s;
-    line-height: 30px;
-    width: 100%;
+    line-height: 14px;
+    width: 0px;
 }
 
 @media only screen and (min-width: 900px){
@@ -52,7 +48,7 @@
 }
 .pesquisa-li{
     position: relative;
-    display: inline-block;
+    float: left;
     padding: 1px;
     width: 100%;
     /* justify-content: end; */
