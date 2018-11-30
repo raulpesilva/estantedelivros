@@ -3,7 +3,7 @@
     position: relative;
     margin-left: 2vw;
     padding: 1px;
-    width: 100%;
+    width: 0%;
     
 
 }
@@ -43,10 +43,10 @@
     font-size: 30px;
     transition: 0.4s;
     line-height: 30px;
-    width: 100%;
+    width: 0%;
 }
 
-@media only screen and (min-width: 900px){
+/* @media only screen and (min-width: 900px){
 .pesquisa-bnt{
     font-size: 30px;
 }
@@ -55,7 +55,7 @@
     display: inline-block;
     padding: 1px;
     width: 100%;
-    /* justify-content: end; */
+    justify-content: end;
 
 }
 .texto-pesquisa{
@@ -69,4 +69,4 @@
     width: 100%;
     /* padding: 0 6px; */
 }
-}
+/* } */

@@ -1,56 +1,65 @@
-body{
+body {
     margin: 0;
     font-family: 'Karla', sans-serif;
     background: #2c2c2c;
     font-weight: 400;
 }
-.container{
+
+.container {
     width: 100%;
     /* margin: 0 auto; */
 }
-header{
+
+header {
     background-color: #3498db;
     /* box-shadow: #2c2c2c; */
 }
-header::after{
+
+header::after {
     content: "";
     display: table;
     clear: both;
 }
-.menu-global{
+
+.menu-global {
     width: 100%;
 }
-.menu-nav{
+
+.menu-nav {
     /* margin-left: 50%; */
     /* transform: translate(-50%,0); */
     /* padding: 10px; */
     width: fit-content;
     /* list-style: none; */
-    margin-left: calc(50% - 96px);
+    /* margin-left: calc(50% - 96px); */
     margin-left: calc(50% - 190px);
     /* justify-items: center; */
     /* align-items: center; */
 }
-.botao-menu{
+
+.botao-menu {
     padding-bottom: 10px;
     padding-top: 10px;
     margin-left: 50px;
     display: inline-block;
     position: relative;
     /* align-items: center; */
-    
+
 }
-.link-nav{
+
+.link-nav {
     color: #2c2c2c;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 
 }
-.link-nav:hover{
+
+.link-nav:hover {
     color: white;
 }
-.link-nav::before{
+
+.link-nav::before {
     content: '';
     display: block;
     height: 5px;
@@ -61,29 +70,33 @@ header::after{
     width: 0%;
     transition: all ease-in-out 250ms;
 }
-.link-nav:hover::before{
+
+.link-nav:hover::before {
     width: 100%;
 }
-.pesquisa-li{
+
+.pesquisa-li {
     display: block;
     padding: 1px;
 }
 
-.box-pesquisa{
+.box-pesquisa {
     position: relative;
     display: inline-block;
     background: #2c2c2c;
     border-radius: 14px;
     padding: 10px;
     width: 94%;
-    
+
 }
-.box-pesquisa:hover > .texto-pesquisa{
+
+.box-pesquisa:hover>.texto-pesquisa {
     position: relative;
     width: 93%;
     padding: 0 2px;
 }
-.pesquisa-bnt{
+
+.pesquisa-bnt {
     color: white;
     float: right;
     width: 14px;
@@ -95,7 +108,8 @@ header::after{
     align-items: center;
     font-size: 14px;
 }
-.texto-pesquisa{
+
+.texto-pesquisa {
     border: none;
     background: none;
     outline: none;
@@ -105,5 +119,40 @@ header::after{
     font-size: 14px;
     transition: 0.4s;
     line-height: 14px;
-    width: 93%;
+    width: 94%;
 }
+
+@media only screen and (min-width: 480px) {}
+
+@media only screen and (min-width: 768px) {
+    /* .pesquisa-li {
+        display: inline;
+         
+    }
+    .menu-global{
+
+        display: inline;
+    }
+    .menu-nav{
+        display: inline-block;
+        margin: 0;
+        width: 50%;
+    }
+    .texto-pesquisa{
+        width: 80%;
+    }
+    .box-pesquisa{
+
+        width: 41%;
+        display: inline-block;
+
+    } */
+
+
+}
+
+@media only screen and (min-width: 900px) {}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (min-width: 1280px) {}
