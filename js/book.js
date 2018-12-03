@@ -33,7 +33,7 @@ $("#botao-pesquisa").click(function () {
     if ($("#caixa-pesquisa").val() === "") {
 
     } else {
-        document.getElementById("thumb").innerHTML = ""
+        // document.getElementById("thumb").innerHTML = "";
         var inputLivro = $(".texto-pesquisa").val();
         // console.log(inputLivro);
         var linkPesquisa = "https://www.googleapis.com/books/v1/volumes?q=" + inputLivro;

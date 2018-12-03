@@ -11,7 +11,8 @@ body {
 }
 
 header {
-    background-color: #3498db;
+    background-image: linear-gradient(#3498db, #2980b9) ;
+    /* background-color: #3498db; */
     /* box-shadow: #2c2c2c; */
 }
 
@@ -65,7 +66,7 @@ header::after {
     height: 5px;
     background-color: #2c2c2c;
     position: absolute;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 25px;
     top: 0;
     width: 0%;
     transition: all ease-in-out 250ms;
@@ -84,16 +85,18 @@ header::after {
     position: relative;
     display: inline-block;
     background: #2c2c2c;
-    border-radius: 14px;
+    border-radius: 20px;
+    /* mudar aqui */
+    width: 93%;
     padding: 10px;
-    width: 94%;
+    transition: 0.4s;
 
 }
 
 .box-pesquisa:hover>.texto-pesquisa {
     position: relative;
-    width: 93%;
-    padding: 0 2px;
+    width: 91%;
+    padding: 0 6px;
 }
 
 .pesquisa-bnt {
@@ -103,7 +106,7 @@ header::after {
     height: 14px;
     border-radius: 14px;
     background-color: #2c2c2c;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 14px;
@@ -117,36 +120,89 @@ header::after {
     padding: 0;
     color: white;
     font-size: 14px;
-    transition: 0.4s;
     line-height: 14px;
-    width: 94%;
+    width: 93%;
+    transition: 0.4s;
+
 }
 
 @media only screen and (min-width: 480px) {}
 
 @media only screen and (min-width: 768px) {
-    /* .pesquisa-li {
-        display: inline;
-         
+    .pesquisa-li {
+        margin-left: 50px;
+        display: inline-flex;
     }
-    .menu-global{
 
-        display: inline;
-    }
-    .menu-nav{
-        display: inline-block;
-        margin: 0;
-        width: 50%;
-    }
-    .texto-pesquisa{
-        width: 80%;
-    }
-    .box-pesquisa{
+    .menu-global {
+        display: block;
 
-        width: 41%;
-        display: inline-block;
+    }
 
-    } */
+    .menu-nav {
+        display: inline-flex;
+        margin: auto;
+        width: auto;
+    }
+
+    .box-pesquisa {
+        position: relative;
+        display: initial;
+        top: 3px;
+        background: #2c2c2c;
+        border-radius: 20px;
+        padding: 5px;
+        width: auto;
+        transition: 0.9s;
+
+    }
+
+    .pesquisa-bnt {
+        color: white;
+        width: 14px;
+        height: 14px;
+        border-radius: 14px;
+        background-color: #2c2c2c;
+        font-size: 14px;
+    }
+
+    .texto-pesquisa {
+        color: white;
+        font-size: 14px;
+        line-height: 14px;
+        width: 12em;
+        transition: 0.7s;
+
+    }
+
+    .texto-pesquisa:focus {
+        width: auto;
+    }
+
+    .texto-pesquisa:focus {
+        position: relative;
+        width: 45vw;
+        padding: 0 2px;
+    }
+
+    .box-pesquisa:hover>.pesquisa-btn {
+        background-color: white;
+    }
+    .box-pesquisa:hover {
+        width: auto;
+    }
+
+    .box-pesquisa:hover>.texto-pesquisa {
+        position: relative;
+        width: 45vw;
+        padding: 0 2px;
+    }
+
+    .box-pesquisa:hover>.pesquisa-btn {
+        background-color: white;
+    }
+
+
 
 
 }
