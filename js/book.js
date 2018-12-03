@@ -8,12 +8,21 @@ function handleResponse(response) {
 }
 
 function plotPesquisa(response) {
+    try{
     for (var i = 0; i < response.items.length; i++) {
+        try{
         var item = response.items[i];
         // in production code, item.text should have the HTML entities escaped.
         var livro = document.getElementById("thumb").innerHTML += "<img class=\"thumb-livro\" src=" + item.volumeInfo.imageLinks.thumbnail + ">";
-        // console.log(livro);
+
+        console.log(livro);
+        }catch(error){
+            // console.log(error);
+        }
     }
+}catch(error){
+    // console.log(error);
+}
 
 }
 
@@ -33,7 +42,7 @@ $("#botao-pesquisa").click(function () {
     if ($("#caixa-pesquisa").val() === "") {
 
     } else {
-        // document.getElementById("thumb").innerHTML = "";
+        document.getElementById("thumb").innerHTML = "";
         var inputLivro = $(".texto-pesquisa").val();
         // console.log(inputLivro);
         var linkPesquisa = "https://www.googleapis.com/books/v1/volumes?q=" + inputLivro;

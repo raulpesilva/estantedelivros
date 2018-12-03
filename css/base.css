@@ -1,15 +1,18 @@
+
+
 .thumb-livro {
+    --tamanho : calc(100%/3);
     display: flex;
     /* flex: 12.5%;
     width: 12.5vw;
     height: 16.53375vw;
     max-width: calc(100%/8); */
-    flex: 33.333%;
+    flex: 33.33333%;
     width: 33.333vw;
     height: 44.0882vw;
-    max-width: calc(100%/3);
-    min-width: 64px;
-    min-height: 95.5px;
+    max-width: var(--tamanho);
+    /* min-width: 129px; */
+    /* min-height: 189px; */
     float: left;
     background-color: #eee;
     /* -32,27513227513228% a menos da altura */
@@ -18,12 +21,7 @@
 .thumb-livro:hover {
     opacity: 0.3;
 }
-.vitrine {
-    display: flex;
-    margin: auto;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 
 @media  only screen and (min-width: 480px){
     .thumb-livro {
