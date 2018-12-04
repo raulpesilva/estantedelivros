@@ -110,10 +110,13 @@ header::after {
     height: 14px;
     border-radius: 14px;
     background-color: #2c2c2c;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     font-size: 14px;
+}
+.pesquisa-bnt:hover{
+    color: #3498db;
 }
 
 .texto-pesquisa {
