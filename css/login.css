@@ -27,7 +27,7 @@
 }
 .content-login::before{
     content: "";
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     background-image: url(https://raw.githubusercontent.com/raulpesilva/estantedelivros/master/img/bg-login.jpg);
