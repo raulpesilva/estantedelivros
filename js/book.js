@@ -59,3 +59,17 @@ $("#botao-pesquisa").click(function () {
         });
     }
 });
+
+function buscarLivros(livro){
+    var xhr = new XMLHttpRequest();
+    var inputLivro = document.querySelector(".texto-pesquisa").Value;
+    var requestLivro = "https://www.googleapis.com/books/v1/volumes?q=" + inputLivro;
+    xhr.open("GET", requestLivro);
+    xhr.addEventListener('click', function(){
+        var retorno = xhr.responseText;
+        var response = JSON.parse(retorno);
+        plotPesquisa(response);
+    })
+    xhr.send();
+
+}
