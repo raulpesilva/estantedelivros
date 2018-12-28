@@ -6,7 +6,7 @@ body {
     /* font-family: 'Karla', sans-serif; */
     font-family: 'Nunito', sans-serif;
 
-    background: #2c2c2c;
+    background: #2c3e50;
     font-weight: 400;
 }
 
@@ -201,7 +201,21 @@ header::after {
 
 }
 
-@media only screen and (min-width: 900px) {}
+@media only screen and (min-width: 900px) {
+    .pesquisa-li{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10em;
+        z-index: 1;
+    }
+    .box-pesquisa{
+        width: 65vw;
+    }
+    .texto-pesquisa:hover > .box-pesquisa{
+        width: 67vw;
+    }
+}
 
 @media only screen and (min-width: 1024px) {}
 
