@@ -1,60 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#3498db">
-    <title>Estante de livros</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/pesquisa.css"> -->
-    <!-- <link rel="stylesheet" href="css/menu.css"> -->
-    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
-    <script src="js/config-firebase.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#0576ff" />
 
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/botao-nav.css" />
+    <link rel="stylesheet" href="css/section-livros.css" />
+    <link rel="stylesheet" href="css/pesquisa.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous" />
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet" />
+    <title>Estante de Livros</title>
 </head>
 
-<body>
-    <header>
-        <div class="container">
-            <!-- <div class="logo-menu"><i class="fas fa-quran"></i>Estante</div> -->
-            <nav class="menu-global">
-                <ul class="menu-nav">
-                    <li class="botao-menu"><a class="link-nav" href="index.html">Home</a></li>
-                    <li class="botao-menu"><a class="link-nav" href="pesquisa.html">Estante</a></li>
-                    <li class="botao-menu"><a class="link-nav" href="login.html">Minha lista</a></li>
-                    <!-- </div>                   <li class="botao-menu"><a class="link-nav" href="pesquisa.html">Pesquisar</a></li> -->
+<body class="background-onda" onload="livrosIniciais();">
+    <div class="conteudo">
+        <header class="wrap-menu">
+            <nav class="menu">
+                <h1 class="logo-tipo">Estante de livros</h1>
+                <ul class="botao-navegacao">
+                    <li class="botao-menu-item">
+                        <a href="#" class="link-menu-nav">home</a>
+                    </li>
+                    <li class="botao-menu-item">
+                        <a href="#" class="link-menu-nav">já li</a>
+                    </li>
+                    <li class="botao-menu-item">
+                        <a href="#" class="link-menu-nav">Quero ler</a>
+                    </li>
                 </ul>
-                <li class="pesquisa-li">
-                    <div class="box-pesquisa">
-                        <input type="text" class="texto-pesquisa" id="caixa-pesquisa" placeholder="Digite o nome do livro">
-                        <a href="" class="pesquisa-bnt" id="botao-pesquisa">
-                            <i class="fas fa-search"></i>
-                        </a>
-                    </div>
-                </li>
+
+                <button class="botao botao-logar">
+                    <i class="fas fa-rocket"></i> Entrar
+                </button>
             </nav>
+        </header>
+        <div class="wrap-pesquisa">
+            <div class="container-pesquisa">
+                <input type="text" class="input-pesquisa" placeholder="Digite o Nome ou Autor do Livro!" />
+                <button class="botao-pesquisa">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
         </div>
-    </header>
-    <div class="vitrine">
-        <ul class="tumbnail" id="thumb">
-            <!-- <li class="thumb-livro"> <img src="http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                    alt="capa do livro" class="thumbnail-image"> -->
-            </li>
-        </ul>
+        <section class="vitrine">
+            <div class="wrap-livro" id="thumb">
+            </div>
+        </section>
     </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/book.js"></script>
-    <script src="https://www.googleapis.com/books/v1/volumes?q=harry+potter&callback=handleResponse"></script>
-    <script src="https://www.googleapis.com/books/v1/volumes?q=maze&callback=handleResponse"></script>
-    <script src="https://www.googleapis.com/books/v1/volumes?q=douglas+adams&callback=handleResponse"></script>
+    <script src="js/views/pesquisa.js"></script>
+    <script src="js/views/descricao.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,909 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 456,
+    "items": [{
+            "kind": "books#volume",
+            "id": "RhqJWjZ_6o4C",
+            "etag": "JAaqxieWYkA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/RhqJWjZ_6o4C",
+            "volumeInfo": {
+                "title": "O guia do mochileiro das galáxias",
+                "authors": [
+                    "Douglas Adams"
+                ],
+                "publisher": "Editora Arqueiro",
+                "publishedDate": "2010-12-15",
+                "description": "Considerado um dos maiores clássicos da literatura de ficção científica, O Guia do Mochileiro das Galáxias vem encantando gerações de leitores ao redor do mundo com seu humor afiado.Este é o primeiro título da famosa série escrita por Douglas Adams, que conta as aventuras espaciais do inglês Arthur Dent e de seu amigo Ford Prefect.A dupla escapa da destruição da Terra pegando carona numa nave alienígena, graças aos conhecimentos de Prefect, um E.T. que vivia disfarçado de ator desempregado enquanto fazia pesquisa de campo para a nova edição do Guia do Mochileiro das Galáxias, o melhor guia de viagens interplanetário.Mestre da sátira, Douglas Adams cria personagens inesquecíveis e situações mirabolantes para debochar da burocracia, dos políticos, da \"alta cultura\" e de diversas instituições atuais. Seu livro, que trata em última instância da busca do sentido da vida, não só diverte como também faz pensar.",
+                "industryIdentifiers": [{
+                        "type": "ISBN_13",
+                        "identifier": "9788599296776"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8599296779"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 208,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.27.28.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=RhqJWjZ_6o4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=RhqJWjZ_6o4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=RhqJWjZ_6o4C&printsec=frontcover&dq=douglas+adams&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=RhqJWjZ_6o4C&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-RhqJWjZ_6o4C"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 19.99,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 18.99,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=RhqJWjZ_6o4C&rdid=book-RhqJWjZ_6o4C&rdot=1&source=gbs_api",
+                "offers": [{
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1.999E7,
+                        "currencyCode": "BRL"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1.899E7,
+                        "currencyCode": "BRL"
+                    },
+                    "giftable": true
+                }]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/O_guia_do_mochileiro_das_gal%C3%A1xias-sample-epub.acsm?id=RhqJWjZ_6o4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/O_guia_do_mochileiro_das_gal%C3%A1xias-sample-pdf.acsm?id=RhqJWjZ_6o4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=RhqJWjZ_6o4C&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Considerado um dos maiores clássicos da literatura de ficção científica, O Guia do Mochileiro das Galáxias vem encantando gerações de leitores ao redor do mundo com seu humor afiado.Este é o primeiro título da famosa série escrita ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "hqhC5KZ6qKIC",
+            "etag": "BKD+n089YsM",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/hqhC5KZ6qKIC",
+            "volumeInfo": {
+                "title": "Praticamente Inofensiva",
+                "authors": [
+                    "Douglas Adams"
+                ],
+                "publisher": "Editora Arqueiro",
+                "publishedDate": "2010-12-15",
+                "description": "Durante muito tempo inédito no Brasil, Praticamente inofensiva é tão polêmico quanto seu criador. Muitos o consideram o último volume da série O mochileiro das galáxias e outros afirmam tratar-se de um título independente, que apenas utiliza os mesmos personagens. Parte dessa controvérsia se deve aos 13 anos que separam este livro da primeira aventura de Arthur Dent, já que Adams iniciou a coleção no final dos anos 1970 e somente em 1992 retomou a história. As inúmeras mudanças políticas, culturais e, principalmente, tecnológicas que aconteceram nesse período influenciaram os rumos da narrativa e tornaram Praticamente inofensiva uma obra singular. Mas, em vez de perder o tom, Adams parece ainda mais irônico e profundo ao divagar sobre a vida, o Universo e tudo mais. Situações hilárias, personagens imprevisíveis, descrições poéticas e paisagens surrealistas se mesclam com perfeição, resultando numa trama cheia de suspense, comédia e filosofia. Depois de muitos anos, Arthur Dent, Tricia McMillan e Ford Prefect se reencontram. Mas o que deveria ser uma festejada reunião de velhos amigos se transforma numa terrível confusão que põe em risco a vida de todos. Praticamente inofensiva é o toque final de Adams nessa divertida história. Não importa se faz parte da \"trilogia\" ou não: ele é o último presente do autor para os mais de 15 milhões de fãs que adotaram sua obra como ícone de uma geração.",
+                "industryIdentifiers": [{
+                        "type": "ISBN_13",
+                        "identifier": "9788599296783"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8599296787"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 194,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.13.14.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=hqhC5KZ6qKIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=hqhC5KZ6qKIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=hqhC5KZ6qKIC&printsec=frontcover&dq=douglas+adams&hl=&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=hqhC5KZ6qKIC&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-hqhC5KZ6qKIC"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 19.99,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 18.99,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=hqhC5KZ6qKIC&rdid=book-hqhC5KZ6qKIC&rdot=1&source=gbs_api",
+                "offers": [{
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1.999E7,
+                        "currencyCode": "BRL"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1.899E7,
+                        "currencyCode": "BRL"
+                    },
+                    "giftable": true
+                }]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Praticamente_Inofensiva-sample-epub.acsm?id=hqhC5KZ6qKIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Praticamente_Inofensiva-sample-pdf.acsm?id=hqhC5KZ6qKIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=hqhC5KZ6qKIC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Praticamente Inofensiva é tão polêmico quanto seu criador."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "aU_ipET2qQEC",
+            "etag": "FJROWp5MbGc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/aU_ipET2qQEC",
+            "volumeInfo": {
+                "title": "O restaurante no fim do universo",
+                "authors": [
+                    "Douglas Adams"
+                ],
+                "publisher": "Editora Arqueiro",
+                "publishedDate": "2010-12-15",
+                "description": "“Um dos maiores sucessos da ficção científica está de volta. A obra do inglês Douglas Adams vem sendo cultuada por fãs do mundo todo.” – Revista Bravo O que você pretende fazer quando chegar ao Restaurante no Fim do Universo? Devorar o suculento bife de um boi que se oferece como jantar ou apenas se embriagar com a poderosa Dinamite Pangaláctica, assistindo de camarote ao momento em que tudo se acaba numa explosão fatal? A continuação das incríveis aventuras de Arthur Dent e seus quatro amigos através da Galáxia começa a bordo da nave Coração de Ouro, rumo ao restaurante mais próximo. Mal sabem eles que farão uma viagem no tempo, cujo desfecho será simplesmente incrível. O segundo livro da série de Douglas Adams, que começou com o surpreendente O Guia do Mochileiro das Galáxias, mostra os cinco amigos vivendo as mais inesperadas confusões numa história cheia de sátira, ironia e bom humor. Com seu estilo inteligente e sagaz, Douglas Adams prende o leitor a cada página numa maravilhosa aventura de ficção científica combinada ao mais fino humor britânico, que conquistou fãs no mundo inteiro. Uma verdadeira viagem, em qualquer um dos mais improváveis sentidos.",
+                "industryIdentifiers": [{
+                        "type": "ISBN_13",
+                        "identifier": "9788599296752"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8599296752"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 192,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 5.0,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.23.22.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=aU_ipET2qQEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=aU_ipET2qQEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=aU_ipET2qQEC&printsec=frontcover&dq=douglas+adams&hl=&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=aU_ipET2qQEC&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-aU_ipET2qQEC"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 19.99,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 18.99,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=aU_ipET2qQEC&rdid=book-aU_ipET2qQEC&rdot=1&source=gbs_api",
+                "offers": [{
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1.999E7,
+                        "currencyCode": "BRL"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1.899E7,
+                        "currencyCode": "BRL"
+                    },
+                    "giftable": true
+                }]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/O_restaurante_no_fim_do_universo-sample-epub.acsm?id=aU_ipET2qQEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/O_restaurante_no_fim_do_universo-sample-pdf.acsm?id=aU_ipET2qQEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=aU_ipET2qQEC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "&quot;Um dos maiores sucessos da ficção científica está de volta. A obra do inglês Douglas Adams vem sendo cultuada por fãs do mundo todo.&quot; – Revista Bravo O que você pretende fazer quando chegar ao Restaurante no Fim do Universo?"
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "k3KMDAAAQBAJ",
+            "etag": "K0/35sqjpnU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/k3KMDAAAQBAJ",
+            "volumeInfo": {
+                "title": "A Espetacular e Incrível Vida de Douglas Adams e do Guia do Mochileiro das Galáxias",
+                "authors": [
+                    "Jem Roberts"
+                ],
+                "publisher": "Aleph",
+                "publishedDate": "2016-06-28",
+                "description": "O Guia do mochileiro das galáxias foi, além de um marco do entretenimento britânico e mundial, uma das séries de comédia mais importantes, influentes e absurdamente legais já escritas. Revelando desde influências dos Beatles até relações com Doctor Who e Monty Python, Jem Roberts nos convida a descobrir a incrível história de Douglas Adams e de sua maior obra, anos depois da repentina e chocante morte do autor. Esta biografia, publicada com total aprovação de sua família e de seus amigos mais próximos, lança um novo olhar sobre Douglas e sua mundialmente aclamada criação. Pela primeira vez os arquivos pessoais do autor do Guia foram examinados, e ideias, trechos inéditos, relatos e novas piadas foram reunidos aqui, para a apreciação dos fãs, como uma celebração à mais louca odisseia da história da comédia britânica. Não entrem em pânico. E preparem suas toalhas...",
+                "industryIdentifiers": [{
+                        "type": "ISBN_13",
+                        "identifier": "9788576573296"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8576573296"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 552,
+                "printType": "BOOK",
+                "categories": [
+                    "Biography & Autobiography"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=k3KMDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=k3KMDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=k3KMDAAAQBAJ&printsec=frontcover&dq=douglas+adams&hl=&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=k3KMDAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-k3KMDAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 24.45,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 24.45,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=k3KMDAAAQBAJ&rdid=book-k3KMDAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [{
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 2.445E7,
+                        "currencyCode": "BRL"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 2.445E7,
+                        "currencyCode": "BRL"
+                    },
+                    "giftable": true
+                }]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/A_Espetacular_e_Incr%C3%ADvel_Vida_de_Dougla-sample-epub.acsm?id=k3KMDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/A_Espetacular_e_Incr%C3%ADvel_Vida_de_Dougla-sample-pdf.acsm?id=k3KMDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=k3KMDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Revelando desde influências dos Beatles até relações com Doctor Who e Monty Python, Jem Roberts nos convida a descobrir a incrível história de Douglas Adams e de sua maior obra, anos depois da repentina e chocante morte do autor."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "DpIwyu_ZW9AC",
+            "etag": "AZB42I21URM",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/DpIwyu_ZW9AC",
+            "volumeInfo": {
+                "title": "The Salmon of Doubt",
+                "subtitle": "Hitchhiking the Galaxy One Last Time",
+                "authors": [
+                    "Douglas Adams"
+                ],
+                "publisher": "Del Rey",
+                "publishedDate": "2005-04-26",
+                "description": "On Friday, May 11, 2001, the world mourned the untimely passing of Douglas Adams, beloved creator of The Hitchhiker’s Guide to the Galaxy, dead of a heart attack at age forty-nine. Thankfully, in addition to a magnificent literary legacy—which includes seven novels and three co-authored works of nonfiction—Douglas left us something more. The book you are about to enjoy was rescued from his four computers, culled from an archive of chapters from his long-awaited novel-in-progress, as well as his short stories, speeches, articles, interviews, and letters. In a way that none of his previous books could, The Salmon of Doubt provides the full, dazzling, laugh-out-loud experience of a journey through the galaxy as perceived by Douglas Adams. From a boy’s first love letter (to his favorite science fiction magazine) to the distinction of possessing a nose of heroic proportions; from climbing Kilimanjaro in a rhino costume to explaining why Americans can’t make a decent cup of tea; from lyrical tributes to the sublime pleasures found in music by Procol Harum, the Beatles, and Bach to the follies of his hopeless infatuation with technology; from fantastic, fictional forays into the private life of Genghis Khan to extended visits with Dirk Gently and Zaphod Beeblebrox: this is the vista from the elevated perch of one of the tallest, funniest, most brilliant, and most penetrating social critics and thinkers of our time. Welcome to the wonderful mind of Douglas Adams. From the Hardcover edition.",
+                "industryIdentifiers": [{
+                        "type": "ISBN_10",
+                        "identifier": "0345484495"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780345484499"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 336,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4.0,
+                "ratingsCount": 4,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.13.8.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=DpIwyu_ZW9AC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=DpIwyu_ZW9AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.br/books?id=DpIwyu_ZW9AC&printsec=frontcover&dq=douglas+adams&hl=&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=DpIwyu_ZW9AC&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-DpIwyu_ZW9AC"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 29.71,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 29.71,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=DpIwyu_ZW9AC&rdid=book-DpIwyu_ZW9AC&rdot=1&source=gbs_api",
+                "offers": [{
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 2.971E7,
+                        "currencyCode": "BRL"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 2.971E7,
+                        "currencyCode": "BRL"
+                    },
+                    "giftable": true
+                }]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/The_Salmon_of_Doubt-sample-epub.acsm?id=DpIwyu_ZW9AC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/The_Salmon_of_Doubt-sample-pdf.acsm?id=DpIwyu_ZW9AC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=DpIwyu_ZW9AC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Culled posthumously from Adams’s fleet of beloved Macintosh computers, this selection of essays, articles, anecdotes, and stories offers a fascinating and intimate portrait of the multifaceted artist and absurdist wordsmith."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Go9avgAACAAJ",
+            "etag": "GFr9Qf+bUjs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Go9avgAACAAJ",
+            "volumeInfo": {
+                "title": "O GUIA DEFINITIVO DO MOCHILEIRO DAS GALAXIAS",
+                "authors": [
+                    "DOUGLAS ADAMS"
+                ],
+                "publishedDate": "2016-05-02",
+                "description": "Com mais de 15 milhões de exemplares vendidos, a saga do britânico esquisitão Arthur Dent pela Galáxia conquistou leitores do mundo inteiro. O humor ácido e as tramas surreais de Douglas Adams se tornaram ícones de uma geração e seguem fascinando – e divertindo – leitores de todas as idades. Pegue sua toalha, embarque nessa aventura improvável e, é claro, não entre em pânico! O Guia do Mochileiro das Galáxias Segundos antes de a Terra ser destruída para dar lugar a uma via expressa interespacial, Arthur Dent é salvo por Ford Prefect, um E.T. que fazia pesquisa de campo para a nova edição de O Guia do Mochileiro das Galáxias. Pegando carona numa nave alienígena, os dois dão início a uma alucinante viagem pelo tempo e pelo espaço. O Restaurante no Fim do Universo Arthur Dent e seus quatro estranhos companheiros viajam pela Galáxia a bordo da nave Coração de Ouro, em uma busca desesperada por algum lugar para comer. Depois de fazer a refeição mais estranha de suas vidas, eles seguem pelo espaço e acabam descobrindo a questão sobre a Vida, o Universo e Tudo Mais. A Vida, o Universo e Tudo Mais Arthur Dent passou os últimos cinco anos abandonado na Terra pré-histórica, mas ainda acordava todos os dias com um grito de horror. No entanto, talvez fosse melhor continuar nessa tediosa rotina do que ser arrastado para a sua próxima missão- salvar o Universo dos temíveis e infelizes robôs xenófobos do planeta Krikkit. Até Mais, e Obrigado Pelos Peixes! Depois de viajar pelo Universo, ver o aniquilamento da Terra, participar de guerras interestelares e conhecer criaturas extraordinárias, Arthur Dent está de volta ao seu planeta. E tudo parece estranhamente normal – exceto pelo desaparecimento dos golfinhos. Disposto a desvendar esse mistério, ele parte em uma nova jornada. Praticamente Inofensiva Após muitos anos vivendo separados, cada um em um canto mais insondável do Universo, Arthur Dent, Ford Prefect e Tricia McMillan se reencontram. Mas o que deveria ser uma festejada reunião de velhos amigos se transforma numa terrível confusão que põe em risco – mais uma vez – a vida de todos.",
+                "industryIdentifiers": [{
+                        "type": "ISBN_10",
+                        "identifier": "8580415543"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9788580415544"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 672,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=Go9avgAACAAJ&dq=douglas+adams&hl=&cd=6&source=gbs_api",
+                "infoLink": "http://books.google.com.br/books?id=Go9avgAACAAJ&dq=douglas+adams&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/O_GUIA_DEFINITIVO_DO_MOCHILEIRO_DAS_GALA.html?hl=&id=Go9avgAACAAJ"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Go9avgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "O humor ácido e as tramas surreais de Douglas Adams se tornaram ícones de uma geração e seguem fascinando - e divertindo - leitores de todas as idades."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "8QCRffdz99oC",
+            "etag": "NR78jwcq6mk",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/8QCRffdz99oC",
+            "volumeInfo": {
+                "title": "Life, the Universe and Everything",
+                "authors": [
+                    "Douglas Adams"
+                ],
+                "publisher": "Pan Macmillan",
+                "publishedDate": "2009-09-01",
+                "description": "In Life, the Universe and Everything, the third title in Douglas Adams' blockbusting sci-fi comedy series, Arthur Dent finds himself enlisted to prevent a galactic war. Following a number of stunning catastrophes, which have involved him being alternately blown up and insulted in ever stranger regions of the Galaxy, Arthur Dent is surprised to find himself living in a cave on prehistoric Earth. However, just as he thinks that things cannot get possibly worse, they suddenly do. An eddy in the space-time continuum lands him, Ford Prefect, and their flying sofa in the middle of the cricket ground at Lord's, just two days before the world is due to be destroyed by the Vogons. Escaping the end of the world for a second time, Arthur, Ford, and their old friend Slartibartfast embark (reluctantly) on a mission to save the whole galaxy from fanatical robots. Not bad for a man in his dressing gown . . . With exclusive bonus material from the Douglas Adams archives, and an introduction by Simon Brett.",
+                "industryIdentifiers": [{
+                        "type": "ISBN_13",
+                        "identifier": "9780330513142"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0330513141"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 1824,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.13.11.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=8QCRffdz99oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=8QCRffdz99oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.br/books?id=8QCRffdz99oC&printsec=frontcover&dq=douglas+adams&hl=&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=8QCRffdz99oC&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-8QCRffdz99oC"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 34.97,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 34.97,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=8QCRffdz99oC&rdid=book-8QCRffdz99oC&rdot=1&source=gbs_api",
+                "offers": [{
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 3.497E7,
+                        "currencyCode": "BRL"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 3.497E7,
+                        "currencyCode": "BRL"
+                    },
+                    "giftable": true
+                }]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Life_the_Universe_and_Everything-sample-epub.acsm?id=8QCRffdz99oC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=8QCRffdz99oC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "In Life, the Universe and Everything, the third title in Douglas Adams&#39; blockbusting sci-fi comedy series, Arthur Dent finds himself enlisted to prevent a galactic war."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "4FmpBAAAQBAJ",
+            "etag": "WleN/G8vyNc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/4FmpBAAAQBAJ",
+            "volumeInfo": {
+                "title": "Dirk Gently's Holistic Detective Agency",
+                "authors": [
+                    "Douglas Adams"
+                ],
+                "publisher": "Simon and Schuster",
+                "publishedDate": "2014-10-07",
+                "description": "From Douglas Adams, the legendary author of one of the most beloved science fiction novels of all time, The Hitchhiker’s Guide to the Galaxy, comes a wildly inventive novel—in trade paperback for the first time—of ghosts, time travel, and one detective’s mission to save humanity from extinction. DIRK GENTLY’S HOLISTIC DETECTIVE AGENCY We solve the whole crime We find the whole person Phone today for the whole solution to your problem (Missing cats and messy divorces a specialty) Douglas Adams, the “master of wacky words and even wackier tales” (Entertainment Weekly) once again boggles the mind with a completely unbelievable story of ghosts, time travel, eccentric computer geniuses, Samuel Taylor Coleridge, the end of the world, and—of course—missing cats.",
+                "industryIdentifiers": [{
+                        "type": "ISBN_13",
+                        "identifier": "9781476782997"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1476782997"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 260,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 89,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.0.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=4FmpBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=4FmpBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.br/books?id=4FmpBAAAQBAJ&printsec=frontcover&dq=douglas+adams&hl=&cd=8&source=gbs_api",
+                "infoLink": "http://books.google.com.br/books?id=4FmpBAAAQBAJ&dq=douglas+adams&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Dirk_Gently_s_Holistic_Detective_Agency.html?hl=&id=4FmpBAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=4FmpBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "From Douglas Adams, the legendary author of one of the most beloved science fiction novels of all time, The Hitchhiker’s Guide to the Galaxy, comes a wildly inventive novel—in trade paperback for the first time—of ghosts, time travel, ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Lk7sCgAAQBAJ",
+            "etag": "MlFB8hCZuT8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Lk7sCgAAQBAJ",
+            "volumeInfo": {
+                "title": "Doctor Who: Cidade da Morte",
+                "authors": [
+                    "Douglas Adams",
+                    "James Goss"
+                ],
+                "publisher": "Suma",
+                "publishedDate": "2015-11-16",
+                "description": "Baseado no roteiro original de Douglas Adams, Cidade da morte é o episódio de Doctor Who mais assistido de todos os tempos. Paris, 1979. O Doutor leva Romana para um dia de folga, mas, enquanto almoçam em um dos charmosos cafés da cidade, o tempo parece saltar, deslizando alguns segundos para trás. Intrigado, o Doutor não demora a identificar uma rachadura no espaço-tempo. Em outro canto da capital francesa, o conde Scarlioni patrocina perigosas — e caríssimas — experiências com o tempo. Para isso, decide roubar a Mona Lisa e revendê-la. Um plano ousado, ainda mais quando os Senhores do Tempo descobrem que ele tem não apenas uma, mas sete Mona Lisas escondidas no porão: e todas são verdadeiras. Com a ajuda do detetive Duggan, especialista em esmurrar pessoas, o Doutor e sua companion precisam deter os planos do elegante e misterioso conde Scarlioni — e das onze versões dele! —, para que a humanidade tenha chance de sobreviver. Baseado no roteiro original de Douglas Adams, Cidade da morte é o episódio de Doctor Who mais assistido de todos os tempos. Uma aventura do Quarto Doutor e sua companion Romana, cheia de humor, reviravoltas e, claro, planos mirabolantes para salvar o universo.",
+                "industryIdentifiers": [{
+                        "type": "ISBN_13",
+                        "identifier": "9788581053141"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8581053149"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 280,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.5.6.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Lk7sCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Lk7sCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=Lk7sCgAAQBAJ&printsec=frontcover&dq=douglas+adams&hl=&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=Lk7sCgAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-Lk7sCgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 23.9,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 23.9,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=Lk7sCgAAQBAJ&rdid=book-Lk7sCgAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [{
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 2.39E7,
+                        "currencyCode": "BRL"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 2.39E7,
+                        "currencyCode": "BRL"
+                    },
+                    "giftable": true
+                }]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Doctor_Who_Cidade_da_Morte-sample-epub.acsm?id=Lk7sCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Doctor_Who_Cidade_da_Morte-sample-pdf.acsm?id=Lk7sCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Lk7sCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Baseado no roteiro original de Douglas Adams, Cidade da morte é o episódio de Doctor Who mais assistido de todos os tempos."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "34tpxpviVbwC",
+            "etag": "a3hFBnj/ElA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/34tpxpviVbwC",
+            "volumeInfo": {
+                "title": "Até Mais, e Obrigado Pelos Peixes!",
+                "authors": [
+                    "Douglas Adams"
+                ],
+                "publisher": "Editora Arqueiro",
+                "publishedDate": "2010-12-15",
+                "description": "Com mais de 15 milhões de exemplares vendidos em todo o mundo e uma galeria interminável de fãs, a série que traz o inglês Arthur Dent e o extraterrestre Ford Prefect como protagonistas de loucas aventuras espaciais chega ao fim. Depois de viajar pelo Universo, ver o aniquilamento da Terra, participar de guerras interestelares e conhecer as mais extraordinárias criaturas, Arthur está de volta ao seu planeta. Tudo parece igual, mas ele descobre que algo muito estranho aconteceu na sua ausência. Curioso com o fato e apaixonado por uma garota tão estranha quanto o que quer que tenha acontecido, ele parte em busca de uma explicação. Com sua peculiar ironia e seu talento aparentemente inesgotável para inventar personagens e histórias hilariantes – embora altamente filosóficas –, Douglas Adams nos presenteia com mais uma genial obra capaz de nos fazer refletir sobre o sentido da vida de uma forma bem diferente da habitual. Intercalando momentos cômicos com imagens e descrições altamente poéticas, Até mais, e obrigado pelos peixes! fecha com chave de ouro essa \"trilogia de quatro livros\" que já levou os leitores a conhecer situações altamente improváveis e a viver momentos de reflexão e de pura diversão.",
+                "industryIdentifiers": [{
+                        "type": "ISBN_13",
+                        "identifier": "9788599296769"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8599296760"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 169,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.13.15.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=34tpxpviVbwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=34tpxpviVbwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=34tpxpviVbwC&printsec=frontcover&dq=douglas+adams&hl=&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=34tpxpviVbwC&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-34tpxpviVbwC"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 19.99,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 18.99,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=34tpxpviVbwC&rdid=book-34tpxpviVbwC&rdot=1&source=gbs_api",
+                "offers": [{
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1.999E7,
+                        "currencyCode": "BRL"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1.899E7,
+                        "currencyCode": "BRL"
+                    },
+                    "giftable": true
+                }]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/At%C3%A9_Mais_e_Obrigado_Pelos_Peixes-sample-epub.acsm?id=34tpxpviVbwC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/At%C3%A9_Mais_e_Obrigado_Pelos_Peixes-sample-pdf.acsm?id=34tpxpviVbwC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=34tpxpviVbwC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Mas, então, onde estariam os golfinhos? E o que queriam dizer com a mensagem &quot;Até mais, e obrigado pelos peixes!&quot;? Isso é o que você e Arthur Dent estão prestes a descobrir!"
+            }
+        }
+    ]
+}

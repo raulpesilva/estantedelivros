@@ -1,0 +1,76 @@
+.logo-tipo {
+    /* display: flex; */
+    font-family: 'Concert One', cursive;
+    color: #ffffff;
+    font-size: 3em;
+    display: inline-block;
+    text-shadow: 0 2px 10px #015ed1;
+    /* flex: 1; */
+
+}
+
+.menu {
+    margin-top: 35px;
+    
+    display: flex;
+    /* display: inline-block; */
+    /* justify-content: center; */
+    width: 100%;
+    justify-content: space-between
+
+}
+
+.botao-menu-item {
+    margin-right: 3em;
+    position: relative;
+    /* margin-left: 3vw; */
+    display: inline-flex;
+    text-shadow: 0 1px 2px #015ed1;
+
+
+}
+
+.botao-navegacao {
+    display: flex;
+    /* position: absolute; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* right: 50%; */
+    /* position: relative; */
+    /* box-sizing: border-box */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    align-items: center;
+    justify-content: space-around;
+    /* flex: 1; */
+
+
+}
+
+
+.link-menu-nav {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px;
+    text-transform: capitalize;
+
+}
+
+.link-menu-nav::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 25px;
+    /* top: 0; */
+
+    bottom: -120%;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+.link-menu-nav:hover::before {
+    width: 100%;
+}
