@@ -70,7 +70,7 @@
 .link-menu-nav:hover::before {
     width: 100%;
 }
-@media  only screen and (max-width: 480px){
+@media  only screen and (max-width: 800px){
     .logo-tipo{
             display: none;
     }
