@@ -3,7 +3,7 @@
     font-family: 'Concert One', cursive;
     color: #ffffff;
     font-size: 3em;
-    display: inline-block;
+    /* display: inline-block; */
     text-shadow: 0 2px 10px #015ed1;
     /* flex: 1; */
 
@@ -11,12 +11,9 @@
 
 .menu {
     margin-top: 35px;
-    
     display: flex;
-    /* display: inline-block; */
-    /* justify-content: center; */
     width: 100%;
-    justify-content: space-between
+    justify-content: space-between;
 
 }
 .wrap-menu{
@@ -39,14 +36,6 @@
 
 .botao-navegacao {
     display: flex;
-    /* position: absolute; */
-    /* text-align: center; */
-    /* justify-content: center; */
-    /* right: 50%; */
-    /* position: relative; */
-    /* box-sizing: border-box */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
     align-items: center;
     justify-content: space-around;
     /* flex: 1; */
@@ -83,12 +72,21 @@
 }
 @media  only screen and (max-width: 480px){
     .logo-tipo{
-            font-size: 1em;
+            display: none;
     }
     .link-menu-nav{
         padding: 2px;
     }
     .wrap-menu{
         width: 100%;
+    }
+    .botao-navegacao{
+        justify-content: right;
+    }
+    .menu{
+        /* display: block; */
+        margin-top: 5px;
+        width: 100vw;
+        justify-content: stretch;
     }
 }
