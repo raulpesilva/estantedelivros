@@ -82,6 +82,7 @@
     }
     .botao-navegacao{
         justify-content: right;
+        align-items: initial;
     }
     .menu{
         /* display: block; */
