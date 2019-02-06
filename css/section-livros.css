@@ -87,6 +87,11 @@
         width: 100%;
         transform: translateX(0);
     }
+    .info-livro{
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 
