@@ -82,6 +82,11 @@
     display: flex;
 }
 
-
+@media  only screen and (max-width: 480px){
+    .vitrine{
+        width: 100%;
+        transform: translateX(0);
+    }
+}
 
 

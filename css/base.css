@@ -15,10 +15,6 @@
     /* flex-direction: column; */
     justify-content: center;
 }
-.wrap-menu{
-    display: flex;
-    position: relative;
-    width: 70%;
-    left: 50%;
-    transform: translateX(-50%)
-}
+
+
+

@@ -52,3 +52,12 @@
     background-color: #fff;
     color: #015ed1;
 }
+
+@media  only screen and (max-width: 480px){
+    .container-pesquisa{
+        width: 80%;
+    }
+    .wrap-pesquisa{
+        margin-top: 2em;
+    }
+}

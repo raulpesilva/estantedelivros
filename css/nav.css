@@ -19,6 +19,13 @@
     justify-content: space-between
 
 }
+.wrap-menu{
+    display: flex;
+    position: relative;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%)
+}
 
 .botao-menu-item {
     margin-right: 3em;
@@ -73,4 +80,15 @@
 
 .link-menu-nav:hover::before {
     width: 100%;
+}
+@media  only screen and (max-width: 480px){
+    .logo-tipo{
+            font-size: 1em;
+    }
+    .link-menu-nav{
+        padding: 2px;
+    }
+    .wrap-menu{
+        width: 100%;
+    }
 }
