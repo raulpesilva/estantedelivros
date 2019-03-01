@@ -35,7 +35,7 @@
 }
 .info-livro{
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #0576ff;
     left: 0;
     width: 100%;
@@ -91,6 +91,7 @@
     .info-livro{
         flex-direction: column;
         align-items: center;
+
     }
 
 }

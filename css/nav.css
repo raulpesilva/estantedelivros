@@ -76,13 +76,26 @@
     }
     .link-menu-nav{
         padding: 2px;
+        flex: 1;
+    }
+    .botao-menu-item{
+      margin-right: 0;
     }
     .wrap-menu{
         width: 100%;
     }
     .botao-navegacao{
-        justify-content: right;
-        align-items: initial;
+      display: flex;
+      flex: 1;
+        /* justify-content: right; */
+        justify-content: space-around;
+        align-items: space-between;
+    }
+    .botao-logar{
+      width: 7em;
+      height: 2em;
+      margin-right: .7em;
+      /* margin-left: 1em; */
     }
     .menu{
         /* display: block; */
