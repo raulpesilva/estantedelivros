@@ -91,7 +91,7 @@
     .info-livro{
         flex-direction: column;
         align-items: center;
-
+         /* top: 0; */
     }
 
 }

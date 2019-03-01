@@ -22,7 +22,7 @@ function plotLivro(response) {
                 const livro = criarLivro(item.volumeInfo.imageLinks.thumbnail, item.volumeInfo.title, item.volumeInfo.description) ;
                 $thumb.appendChild(livro);
             } catch (error) {
-                console.log(error);
+                // console.log(error);
             }
         }
     } catch (error) {

@@ -6,6 +6,7 @@ $livros.addEventListener("click", function (event) {
         const livro = event.target.parentNode.querySelector('.info-livro');
         tiraLivrosVisiveis();
         livro.classList.add('aparece-livro');
+        livro.scrollIntoView();
     }catch(error){
 
     }
